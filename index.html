@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashutosh_Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap" rel="stylesheet">
+
+
+    <style>
+        body,
+        table {
+            font-size: x-large;
+        }
+
+        hr {
+            border: groove;
+            height: 3px;
+            background-color: black;
+
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+        }
+
+        .personalInfo {
+            text-align: left;
+        }
+
+        .header img {
+            border: 2px groove black;
+            border-radius: 8%;
+            padding: 5px;
+
+
+        }
+
+        h3 {
+            color: #4b4b4b;
+            text-decoration: 1px underline;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+
+        #EduTable,
+        #EduTable th,
+        #EduTable td {
+            border: 1px solid black;
+            padding: 9px;
+            text-align: left;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            text-align: center;
+
+        }
+
+        #EduTable th {
+            background-color: #fef7ce;
+        }
+
+        #EduTable td {
+            background-color: #fff9ea;
+        }
+
+        .ProjectTable,
+        .ProjectTable th,
+        .ProjectTable td,
+        .ProjectTable tr {
+            border: 2px solid gray;
+            padding: 15px;
+            text-align: left;
+            border-collapse: collapse;
+            margin: 5%;
+        }
+
+        .ProjectName {
+            background-color: rgb(228, 220, 220);
+        }
+
+        .EducationQyalification table,
+        .EducationQyalification th,
+        .EducationQyalification td,
+        .EducationQyalification tr {
+            border: 1px solid black;
+            padding: 9px;
+            text-align: left;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+
+
+        }
+
+        .Name {
+            color: black;
+            font-family: 'Signika', sans-serif;
+
+        }
+    </style>
+</head>
+
+
+<body style="margin: 7%;">
+    <header>
+        <div class="header">
+            <div class="PersonalInfo">
+                <h2 class="Name" style="display:inline">ASHUTOSH VILAS RODE</h2>
+                <br>
+                <br>
+                <h4 class="Name"style="display: inline;">E-Mail :</h4>
+                <a href="arode1999@gmail.com">arode1999@gmail.com</a>
+                <br>
+                <br>
+                <h4 class="Name"style="display: inline;">Mobile :</h4>
+                <span>+91 7276044860</span>
+                <br>
+                <br>
+                <h4 class="Name"style="display: inline;">LinkedIn :</h4>
+                <a
+                    href="https://www.linkedin.com/in/ashutosh-rode-a81a8a18b">linkedin.com/in/ashutosh-rode-a81a8a18b</a>
+            </div>
+            <img src="photo.png" alt="My Passport Size Photo" style="display: inline" height="170" width="150">
+        </div>
+    </header>
+    <hr>
+    <!-- Career Objective -->
+    <section>
+        <h3>CAREER OBJECTIVE </h3>
+        <p>
+            I am an engineering graduate, looking to launch my career and put my talents to work in the real world.
+            Well-versed in HTML, CSS, Javascript, and frameworks. I immensely care about creating responsive designs and
+            intuitive user experiences. I am highly motivated to continue learning and improving my skills.
+        </p>
+        <p>
+            To work as a Software Engineer applying my knowledge in the field of testing, designing, and maintenance to
+            cater to the specific
+            needs of the people. I wish to work in a team of motivated individuals who wish to work towards the
+            advancement of the company and
+            its goals.
+        </p>
+    </section>
+    <hr>
+
+    <!-- Professional summary -->
+    <article>
+        <h3>PROFESSIONAL SUMMARY </h3>
+        <ul>
+            <li>
+                Have an expertise in developing modern web applications in JavaScript frameworks and libraries.
+            </li>
+            <li>
+                Maintain accessibility & browser compatibility of HTML Pages.
+            </li>
+            <li>
+                Good working knowledge on application development,analysis of visual design (Mockups).
+            </li>
+            <!-- <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ea.
+            </li> -->
+        </ul>
+    </article>
+    <!-- Technical Expertise -->
+    <hr>
+    <section>
+        <h3>TECHNICAL EXPERTISE </h3>
+        <table style="text-align: justify;">
+            <tr>
+                <th>Programming Languages</th>
+                <th>:</th>
+                <td>
+                    HTML5, CSS3, JavaScript, C++, C, Python, PHP
+                </td>
+            </tr>
+            <tr>
+                <th>Frameworks </th>
+                <th>:</th>
+                <td> Angular, BootStrap </td>
+            </tr>
+            <tr>
+                <th>Databases </th>
+                <th>:</th>
+                <td>MySQL</td>
+            </tr>
+            <tr>
+                <th>Cloud Infrastructure </th>
+                <th>:</th>
+                <td>AWS, Azure, DigitalOcean </td>
+            </tr>
+            <tr>
+                <th>Utilities </th>
+                <th>:</th>
+                <td>Git, GitHub, VScode, Adobe PhotoShop, Excel </td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <!-- Educational Qualification -->
+    <section class="EducationQyalification">
+        <h3>EDUCATIONAL QUALIFICATION </h3>
+        <table id="EduTable">
+            <thead>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institude / College</th>
+                    <th>University / Board</th>
+                    <th>Year</th>
+                    <th>Marks(%)</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>B.E. in Computer</td>
+                <td>Sinhgad Academy of Engineering, Kondhwa(bk),Pune-411048</td>
+                <td>Savitribai Phule Pune University</td>
+                <td>2022</td>
+                <td>7.71 CGPA</td>
+            </tr>
+            <tr>
+                <td>H.S.C. (12th)</td>
+                <td>Swami Muktanand Secondary and Higher Secondary School,Yeola</td>
+                <td>Maharashtra State Board of Secondary & Higher Secondary Education</td>
+                <td>2017</td>
+                <td>65.38%</td>
+            </tr>
+            <tr>
+                <td>S.S.C. (10th)</td>
+                <td>Swami Muktanand Secondary and Higher Secondary School,Yeola</td>
+                <td>Maharashtra State Board of Secondary & Higher Secondary Education</td>
+                <td>2015</td>
+                <td>72%</td>
+            </tr>
+
+        </table>
+    </section>
+    <hr>
+    <!-- Project Name -->
+    <section>
+        <h3>FINAL YEAR PROJECTS </h3>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas culpa eaque quae quia, earum expedita. Placeat
+            autem exercitationem veniam officiis.</p>
+        <p style="margin-left: 30px ;">
+            <b>ALMT</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempore.
+        </p> -->
+        <!-- First Project -->
+        <div>
+            <table class="ProjectTable">
+                <tr>
+                    <th colspan="2" class="ProjectName">Speech Separation using Python</th>
+
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <p> Speech Separation is a problem in whhich serveral signals have been mixed together and the objective is to recover the original singnals from the combined signals. </p> 
+                      <p>  Speech separation aims at separating the voice of each speaker when multiple speakers talk
+                        simultaneously.
+                        In this , we focus on the separation of two voices from a single mixture, namely single channel
+                        speech separation</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Languages</th>
+                    <td>
+                        Python
+                    </td>
+                </tr>
+                <tr>
+                    <th>Hardware </th>
+                    <td><b>Processor</b>- i3/i5/i7, <b> Speed</b> -3.1 GHz, <b> RAM</b>- 2 GB(min), <b> Hard Disk</b>-20 GB </td>
+
+                </tr>
+                <tr>
+                    <th>
+                        Project Scope
+                    </th>
+                    <td>
+                        Speech separation is used in wide range of applications,including mobile communication, speaker recognition ,and song separation .There are many potential values for separating mixed speech.
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Second Project -->
+
+        <div>
+            <table class="ProjectTable">
+                <tr>
+                    <th colspan="2" class="ProjectName">Mini Project</th>
+                </tr>
+                <tr>
+                    <th>Project Title</th>
+                    <th>Technologies</th>
+                </tr>
+                <tr>
+                    <td>
+                        Movie Recommendiation System
+                    </td>
+                    <td>
+                        (Machine Learning)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Online Chat System
+                    </td>
+                    <td>
+                        (Cloud Computing)
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        Crime Reporting System
+                    </td>
+                    <td>
+                        (Cloud Computing)
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        Smart Door Lock System
+                    </td>
+                    <td>
+                        (Embedded System)
+                    </td>
+
+                </tr>
+
+            </table>
+        </div>
+    </section>
+    <hr>
+    <!-- EXTRA-CURRICULAR ACTIVITIES  -->
+    <section>
+        <h3>EXTRA-CURRICULAR ACTIVITIES </h3>
+        <p>
+            <b>Member of ACES Committee (2018 - 2022)</b>
+        </p>
+        <p style="margin-left: 30px ;">
+            I was a Member of the <b>Crack-It team</b> and the <b>Art team</b> Designed more than 12 art Work for
+            Sinhgad Karandak Festival. Our Computer Department won the First prize in the Competition. Some of my Art
+            Work on My Instagram account- @ashutosh_art_
+        </p>
+    </section>
+    <hr>
+    <!-- CERTIFICATES -->
+    <section>
+        <h3>CERTIFICATES </h3>
+        <ol type="1">
+
+            <li>
+                <b>Microsoft Azure Fundamentals(AZ-900) (01/2023)</b>
+                <ul>
+                    Completed certification in " Microsoft Azure Fundamentals(AZ-900) Certificate " by Microsoft Azure.
+                </ul>
+            </li>
+            <br>
+            <li>
+                <b>Google Drive Clone using HTML & Material CSS Bootcamp (11/2022)</b>
+                <ul>
+                    Completed Certification in " Google Drive Clone using HTML & Material CSS Bootcamp " by Microsoft
+                    Learn .
+                </ul>
+            </li>
+            <br>
+            <li>
+                <b>Back-End Web Development Using JavaScript and Node.js (12/2022)</b>
+                <ul>
+                    Completed certification in "Back-End Web Development Using JavaScript and Node.js Bootcamp" by
+                    Microsoft Learn
+                </ul>
+            </li>
+            <br>
+            <li>
+                <b>Advanced C++ and C Training (04/2020)</b>
+                <ul>
+                    Completed certification in Advanced Cpp test organized at Sinhgad Academy of Engineering by Ashish
+                    Ramdasi with the course provided by the Spoken Tutorial Project, IIT Bombay
+                </ul>
+            </li>
+
+        </ol>
+    </section>
+    <hr>
+    <!-- INTERESTS -->
+    <section>
+        <h3>
+            INTERESTS
+        </h3>
+        <ul>
+            <li>Listening songs</li>
+            <li>Gaming</li>
+            <li>Sketching</li>
+            <li>Painting</li>
+            <li>Video Editing</li>
+            <li>Hiking</li>
+
+
+        </ul>
+    </section>
+
+</body>
+
+</html>
